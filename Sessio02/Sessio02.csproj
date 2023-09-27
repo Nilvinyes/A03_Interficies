@@ -7,4 +7,52 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="911.jpg" />
+    <None Remove="aladin.png" />
+    <None Remove="aladin_cut.png" />
+    <None Remove="amazon.png" />
+    <None Remove="avatar.jpg" />
+    <None Remove="Disney+.png" />
+    <None Remove="Disney-Plus-Logo.png" />
+    <None Remove="Disney.png" />
+    <None Remove="flecha.png" />
+    <None Remove="futurama.png" />
+    <None Remove="mandalorian.png" />
+    <None Remove="mandalorian_cut.png" />
+    <None Remove="marte.jpg" />
+    <None Remove="mcqueen.png" />
+    <None Remove="Screenshot_1-fotor-bg-remover-20230927213737.png" />
+    <None Remove="Screenshot_1-fotor-bg-remover-20230927214148.png" />
+    <None Remove="Screenshot_1-fotor-bg-remover-20230927214739.png" />
+    <None Remove="Screenshot_1-fotor-bg-remover-20230927215028.png" />
+    <None Remove="Screenshot_1-fotor-bg-remover-20230927215357.png" />
+    <None Remove="simsons.jpg" />
+    <None Remove="vengadores.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="911.jpg" />
+    <Resource Include="aladin.png" />
+    <Resource Include="aladin_cut.png" />
+    <Resource Include="amazon.png" />
+    <Resource Include="avatar.jpg" />
+    <Resource Include="Disney+.png" />
+    <Resource Include="Disney-Plus-Logo.png" />
+    <Resource Include="Disney.png" />
+    <Resource Include="flecha.png" />
+    <Resource Include="futurama.png" />
+    <Resource Include="mandalorian.png" />
+    <Resource Include="mandalorian_cut.png" />
+    <Resource Include="marte.jpg" />
+    <Resource Include="mcqueen.png" />
+    <Resource Include="Screenshot_1-fotor-bg-remover-20230927213737.png" />
+    <Resource Include="Screenshot_1-fotor-bg-remover-20230927214148.png" />
+    <Resource Include="Screenshot_1-fotor-bg-remover-20230927214739.png" />
+    <Resource Include="Screenshot_1-fotor-bg-remover-20230927215028.png" />
+    <Resource Include="Screenshot_1-fotor-bg-remover-20230927215357.png" />
+    <Resource Include="simsons.jpg" />
+    <Resource Include="vengadores.jpg" />
+  </ItemGroup>
+
 </Project>

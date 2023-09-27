@@ -6,10 +6,48 @@
         xmlns:local="clr-namespace:Sessio02"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Button Content="Send" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Background="#FFCF1616" Height="40" Width="129" FontSize="24"/>
-        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="164,78,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="139,0,0,0" VerticalAlignment="Center" Height="40" Width="98"/>
-
+    <Grid OpacityMask="Black">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF1A1833"/>
+                <GradientStop Color="#FFCBAFAF" Offset="1"/>
+                <GradientStop Color="#FF4F4992" Offset="0.849"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Image x:Name="imatge1" HorizontalAlignment="Left" Height="49" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Source="/Disney-Plus-Logo.png"/>
+        <Button Content="Inici" HorizontalAlignment="Left" Margin="118,26,0,0" VerticalAlignment="Top" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="14" FontWeight="Bold" Foreground="White"/>
+        <Button Content="Buscar" HorizontalAlignment="Left" Margin="170,26,0,0" VerticalAlignment="Top" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="14" FontWeight="Bold" Foreground="White"/>
+        <Button Content="Llista" HorizontalAlignment="Left" Margin="239,26,0,0" VerticalAlignment="Top" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="14" FontWeight="Bold" Foreground="White" Click="Button_Click"/>
+        <Button Content="Llista" HorizontalAlignment="Left" Margin="239,26,0,0" VerticalAlignment="Top" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="14" FontWeight="Bold" Foreground="White" Click="Button_Click"/>
+        <Button Content="Películas" HorizontalAlignment="Left" Margin="302,26,0,0" VerticalAlignment="Top" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="14" FontWeight="Bold" Foreground="White" Click="Button_Click"/>
+        <Button Content="Originals" HorizontalAlignment="Left" Margin="387,26,0,0" VerticalAlignment="Top" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="14" FontWeight="Bold" Foreground="White" Click="Button_Click"/>
+        <Button Content="Series" HorizontalAlignment="Left" Margin="477,26,0,0" VerticalAlignment="Top" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="14" FontWeight="Bold" Foreground="White" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="716,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Nil" FontSize="14" FontWeight="Bold" Foreground="White" Height="23"/>
+        <Image HorizontalAlignment="Left" Height="39" Margin="740,18,0,0" VerticalAlignment="Top" Width="40" Source="/mcqueen.png"/>
+        <Image HorizontalAlignment="Center" Height="143" VerticalAlignment="Top" Width="563" Source="/futurama.png" Margin="0,74,0,0"/>
+        <Image HorizontalAlignment="Left" Height="143" Margin="702,74,0,0" VerticalAlignment="Top" Width="99" Source="/mandalorian_cut.png"/>
+        <Image HorizontalAlignment="Left" Height="142" Margin="0,74,0,0" VerticalAlignment="Top" Width="103" Source="/aladin_cut.png"/>
+        <Image HorizontalAlignment="Left" Height="24" Margin="94,133,0,0" VerticalAlignment="Top" Width="30" Source="/flecha.png"/>
+        <Image HorizontalAlignment="Left" Height="24" Margin="681,133,0,0" VerticalAlignment="Top" Width="30" Source="/flecha.png" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image HorizontalAlignment="Left" Height="112" Margin="-12,222,0,0" VerticalAlignment="Top" Width="171" Source="/Screenshot_1-fotor-bg-remover-20230927213737.png"/>
+        <Image HorizontalAlignment="Left" Height="91" Margin="170,234,0,0" VerticalAlignment="Top" Width="138" Source="/Screenshot_1-fotor-bg-remover-20230927214148.png"/>
+        <Image HorizontalAlignment="Left" Height="121" Margin="313,217,0,0" VerticalAlignment="Top" Width="144" Source="/Screenshot_1-fotor-bg-remover-20230927214739.png"/>
+        <Image HorizontalAlignment="Left" Height="116" Margin="462,216,0,0" VerticalAlignment="Top" Width="145" Source="/Screenshot_1-fotor-bg-remover-20230927215028.png"/>
+        <Image HorizontalAlignment="Left" Height="123" Margin="614,226,0,0" VerticalAlignment="Top" Width="146" Source="/Screenshot_1-fotor-bg-remover-20230927215357.png"/>
+        <Button Content="Recomentats per tu" HorizontalAlignment="Left" Margin="20,325,0,0" VerticalAlignment="Top" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="White" FontWeight="Bold" RenderTransformOrigin="0.489,0.032"/>
+        <Image HorizontalAlignment="Left" Height="111" Margin="26,353,0,0" VerticalAlignment="Top" Width="124" Source="/simsons.jpg"/>
+        <Image HorizontalAlignment="Left" Height="74" Margin="170,353,0,0" VerticalAlignment="Top" Width="126" Source="/marte.jpg"/>
+        <Image HorizontalAlignment="Left" Height="109" Margin="314,353,0,0" VerticalAlignment="Top" Width="126" Source="/vengadores.jpg"/>
+        <Image HorizontalAlignment="Left" Height="104" Margin="458,352,0,0" VerticalAlignment="Top" Width="128" Source="/avatar.jpg"/>
+        <Image HorizontalAlignment="Left" Height="73" Margin="602,352,0,0" VerticalAlignment="Top" Width="133" Source="/911.jpg"/>
     </Grid>
 </Window>
